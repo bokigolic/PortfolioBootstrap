@@ -1,0 +1,14 @@
+
+.container h1 {
+    padding: 50px;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.container img {
+    width:150px!important;
+    height: auto;
+    
+
+}
+
