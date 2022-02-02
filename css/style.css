@@ -1,4 +1,3 @@
-
 .container h1 {
     padding: 50px;
     margin: 20px;
@@ -6,9 +5,20 @@
 }
 
 .container img {
-    width:150px!important;
+    width: 150px!important;
     height: auto;
-    
-
 }
 
+.container .nav-item .btn.btn-primary {
+    padding: 0px !important;
+}
+
+.btn.btn-primary {
+    padding: 0px !important;
+}
+
+.container .navbar-brand {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+}
