@@ -19,6 +19,19 @@
 
 .container .navbar-brand {
     position: fixed;
+    color: blue;
     bottom: 0;
     left: 20px;
+}
+
+.p-5.bg-dark.text-light {
+    margin-top: 90px!important;
+}
+
+.bg-primary {
+    background-color: #0db2fd!important;
+}
+
+.card.bg-light {
+    background-image: ('img/tag.img')!important;
 }
