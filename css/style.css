@@ -1,4 +1,3 @@
-
 .container h1 {
     padding: 50px;
     margin: 20px;
@@ -6,9 +5,33 @@
 }
 
 .container img {
-    width:150px!important;
+    width: 150px!important;
     height: auto;
-    
-
 }
 
+.container .nav-item .btn.btn-primary {
+    padding: 0px !important;
+}
+
+.btn.btn-primary {
+    padding: 0px !important;
+}
+
+.container .navbar-brand {
+    position: fixed;
+    color: blue;
+    bottom: 0;
+    left: 20px;
+}
+
+.p-5.bg-dark.text-light {
+    margin-top: 90px!important;
+}
+
+.bg-primary {
+    background-color: #0db2fd!important;
+}
+
+.card.bg-light {
+    background-image: ('img/tag.img')!important;
+}
