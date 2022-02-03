@@ -40,7 +40,9 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navmenu">
+
                 <ul class="navbar-nav ms-auto">
+
                     <li class="nav-item">
                         <button type="button" class="btn btn-primary"><a href="#learn" class="nav-link">About Me</a></button>
 
@@ -159,7 +161,7 @@
                 <div class="col-md-6 col-lg-2">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <h3 class="card-title mb-3">PetAdoption</h3>
+                            <h3 class="card-title mb-3">PetAdopt</h3>
                             <a href="https://guarded-basin-05749.herokuapp.com/">PetAdoption</a>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat odio laoreet sapien volutpat,
@@ -250,8 +252,7 @@
                     </h2>
                     <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat odio laoreet sapien volutpat, quis hendrerit ligula gravida. Morbi euismod ante vel eros suscipit cursus. Curabitur vehicula semper nisi et luctus. Aenean et tincidunt sapien. Nam
-                            at ipsum ante. Donec tempus, mauris ut accumsan finibus,
+                            I decided to program because I want to learn new things and keep up with the development of technology, especially from the WEB.
                         </div>
                     </div>
                 </div>
@@ -267,8 +268,7 @@
                     </h2>
                     <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat odio laoreet sapien volutpat, quis hendrerit ligula gravida. Morbi euismod ante vel eros suscipit cursus. Curabitur vehicula semper nisi et luctus. Aenean et tincidunt sapien. Nam
-                            at ipsum ante. Donec tempus, mauris ut accumsan finibus,
+                            I've been coding for a little less than a year. In the beginning, like most, I started reading forums and watching tutorials. As the desire to write WEB sites was born, I continued to improve in that direction, and the ultimate goal is fullstack dev
                         </div>
                     </div>
                 </div>
@@ -280,38 +280,60 @@
 
     <section class="p-5">
         <div class="container">
-            <div class="row g-4">
-                <div class="col-md">
-                    <h2 class="text-center mb-4">Contact Info</h2>
-                    <ul class="list-group lit-group-flush lead">
-                        <li class="list-group-item">
-                            <span class="fw-bold">
-                                Location:
-                            </span> 50 Main st Arlington VA
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">
-                                Main Phone:
-                            </span> 333 333 3333
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">
-                                Phone:
-                            </span> 555 555 5555
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">
-                                Email:
-                            </span> test@gmail.com
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">
-                                Email:
-                            </span> test@gmail.com
-                        </li>
-                    </ul>
+            <div class="contact_info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="contact_info_container d-flex flex-lg-row flex-column justify-content-between align-items-between">
+                                <!-- Contact Item -->
+                                <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                                    <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
+                                    <div class="contact_info_content">
+                                        <div class="contact_info_title">Phone</div>
+                                        <div class="contact_info_text">703 909 0093</div>
+                                    </div>
+                                </div>
+                                <!-- Contact Item -->
+                                <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                                    <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
+                                    <div class="contact_info_content">
+                                        <div class="contact_info_title">Email</div>
+                                        <div class="contact_info_text">bokigolic32@gmail.com</div>
+                                    </div>
+                                </div>
+                                <!-- Contact Item -->
+                                <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                                    <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/map-marker.png" alt=""></div>
+                                    <div class="contact_info_content">
+                                        <div class="contact_info_title">Address</div>
+                                        <div class="contact_info_text">919 N Lincoln st</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- Contact Form -->
+            <div class="contact_form">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="contact_form_container">
+                                <div class="contact_form_title">Get in Touch</div>
+                                <form action="#" id="contact_form">
+                                    <div class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between"> <input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Your name" required="required" data-error="Name is required."> <input type="text" id="contact_form_email" class="contact_form_email input_field"
+                                            placeholder="Your email" required="required" data-error="Email is required."> <input type="text" id="contact_form_phone" class="contact_form_phone input_field" placeholder="Your phone number"> </div>
+                                    <div class="contact_form_text"> <textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea> </div>
+                                    <div class="contact_form_button"> <button type="submit" class="button contact_submit_button">Send Message</button> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel"></div>
+            </div>
+
         </div>
     </section>
     <!-- Start Footer -->
@@ -321,9 +343,13 @@
             <!-- Section: Images -->
             <section class="">
                 <div class="row">
+                    <div>
+                        <h3>Screenschoot of projects</h3>
+                    </div>
                     <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
+                            <img src="./img/horeson.JPG" class="w-100" />
                             <a href="#!">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                             </a>
@@ -331,7 +357,7 @@
                     </div>
                     <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" class="w-100" />
+                            <img src="img/fooddashapp.JPG" class="w-100" />
                             <a href="#!">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                             </a>
@@ -339,7 +365,7 @@
                     </div>
                     <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" class="w-100" />
+                            <img src="img/petAddoption.JPG" class="w-100" />
                             <a href="#!">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                             </a>
@@ -347,7 +373,7 @@
                     </div>
                     <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
+                            <img src="img/anaolson.JPG" class="w-100" />
                             <a href="#!">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                             </a>
@@ -355,7 +381,7 @@
                     </div>
                     <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp" class="w-100" />
+                            <img src="img/americanhiking.JPG" class="w-100" />
                             <a href="#!">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
                             </a>
@@ -391,41 +417,9 @@
                     <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <p class="lead">Fill out this from and we will get back to you</p>
-                    <form>
-                        <div class="mb-3">
-                            <label for="first-name" class="col-form-label">
-                                First Name:
-                            </label>
-                            <input type="text" class="from-control" id="firt-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="last-name" class="col-from-label">
-                                Last Name:
-                            </label>
-                            <input class="form-control" type="text" id="last-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="last-name" class="col-from-label">
-                                Email:
-                            </label>
-                            <input class="form-control" type="text" id="last-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="last-name" class="col-from-label">
-                                Phone:
-                            </label>
-                            <input class="form-control" type="text" id="last-name">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
+
+
+
             </div>
         </div>
         <!-- FORM ---->
